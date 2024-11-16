@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+    width: 1280px;
+}
+
+.header{
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 24px;
+}
+.header .logo{
+    color: black;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header .link{
+    color: white;
+   
+} 
+
+
+
+.content{
+   
+} 
+.content h1{
+    font-size: 48px;
+    font-family: Roboto,Bold;
+    margin-top: 159px;
+}
+.content .intro-photo{
+   width: 625px;
+   height: 800px;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+
+
+.footer{
+    top: 3561px;
+    left: 0px;
+    width: 1280px;
+    height: 93px;
+    background: var(--unnamed-color-121212) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-121212);
+    background: #121212 0% 0% no-repeat padding-box;
+    border: 1px solid #121212;
+    opacity: 1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer .logo-footer{
+    display: flex;
+    
+}
+.footer .logo-footer h3{
+    padding-right: 16px;
+}
+.footer .policy{
+    display: flex;
+}
+.footer .policy h3{
+    padding-right: 48px;
+}
